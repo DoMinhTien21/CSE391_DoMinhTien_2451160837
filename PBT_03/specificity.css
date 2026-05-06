@@ -1,0 +1,29 @@
+/* 1. Element */
+p { color: black; }                     /* 0,0,1 */
+
+/* 2. Element + element */
+body p { color: blue; }                 /* 0,0,2 */
+
+/* 3. Class */
+.text { color: green; }                 /* 0,1,0 */
+
+/* 4. Class khác */
+.highlight { color: orange; }           /* 0,1,0 */
+
+/* 5. Element + class */
+p.text { color: purple; }               /* 0,1,1 */
+
+/* 6. 2 class */
+.text.highlight { color: pink; }        /* 0,2,0 */
+
+/* 7. Element + 2 class */
+p.text.highlight { color: brown; }      /* 0,2,1 */
+
+/* 8. ID */
+#demo { color: red; }                   /* 1,0,0 */
+
+/* 9. ID + class */
+#demo.text { color: cyan; }             /* 1,1,0 */
+
+/* 10. ID + 2 class + element */
+p#demo.text.highlight { color: gold; }  /* 1,2,1 */

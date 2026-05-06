@@ -1,0 +1,107 @@
+/* 1. Reset */
+* {
+    box-sizing: border-box;
+}
+
+/* 2. Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* 3. Header */
+header {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 4. Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+/* Hover */
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* Active */
+nav a.active {
+    color: red;
+    font-weight: bold;
+}
+
+/* 5. Section */
+section {
+    padding: 20px;
+}
+
+/* 6. Image */
+figure img {
+    border-radius: 10px;
+}
+
+/* 7. Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Header row */
+table th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Cell */
+table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Zebra */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover row */
+table tr:hover {
+    background-color: #ddd;
+}
+
+/* 8. Aside (liên hệ) */
+aside {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* 9. Footer */
+footer {
+    background-color: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+}
